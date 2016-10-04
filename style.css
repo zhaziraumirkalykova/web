@@ -1,0 +1,108 @@
+@font-face {
+  font-family: lora;
+  src: url("fonts/Lora-Regular.ttf"); }
+.body {
+  margin: 0;
+  padding: 0; }
+  .body .header {
+    position: fixed;
+    background-color: #B0C4DE;
+    width: 100%;
+    text-align: center;
+    padding: 25px 25px; }
+    .body .header .header__link {
+      font-family: lora;
+      text-decoration: none;
+      margin: 10px;
+      font-size: 1.2em;
+      background: transparent;
+      color: #161314; }
+      .body .header .header__link:hover {
+        cursor: pointer;
+        padding: 3px;
+        background-color: #efefef; }
+  .body .menu {
+    width: 20%;
+    height: 100%;
+    margin-left: 80%;
+    padding-top: 90px;
+    position: fixed;
+    background-color: #B0C4DE;
+    display: block;
+    text-align: center; }
+    .body .menu .menu__link {
+      font-family: lora;
+      display: block;
+      text-decoration: none;
+      margin: 10px;
+      font-size: 1.3em;
+      color: #161314; }
+      .body .menu .menu__link:hover {
+        padding: 3px;
+        background-color: #efefef; }
+  .body .section {
+    background-image: url("images/1.jpg");
+    background-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    padding-bottom: 20px; }
+    .body .section .section__heading {
+      font-family: lora;
+      text-align: center;
+      display: block;
+      font-size: 1.3em; }
+    .body .section .block {
+      text-indent: 50px;
+      background-color: #efefef;
+      margin-left: 200px;
+      margin-right: 300px;
+      height: 230px;
+      padding: 10px 10px;
+      text-align: justify; }
+      .body .section .block .block__parahraph {
+        font-family: lora;
+        float: right; }
+      .body .section .block .block__image {
+        margin-right: 20px;
+        float: left;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px; }
+    .body .section .block2 {
+      text-align: justify;
+      text-indent: 50px;
+      background-color: #efefef;
+      margin-left: 200px;
+      margin-right: 300px;
+      margin-top: 20px;
+      height: 230px;
+      padding: 10px 10px; }
+      .body .section .block2 .block2__parahraph {
+        float: left;
+        font-family: lora; }
+      .body .section .block2 .block2__image {
+        margin-left: 20px;
+        float: right;
+        width: 200px;
+        height: 200px;
+        border-radius: 200px; }
+  .body .footer {
+    width: 100%;
+    background-color: #7f8c8d;
+    bottom: -188px;
+    height: 120px;
+    position: absolute;
+    text-align: center; }
+    .body .footer .footer__contact {
+      margin-right: 200px;
+      margin-left: 200px;
+      display: inline-block; }
+      .body .footer .footer__contact .footer__icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin: 10px;
+        cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

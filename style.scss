@@ -1,0 +1,136 @@
+$background-color:#B0C4DE;
+$background-color-block:#95a5a6;
+$background-color-footer:#7f8c8d;
+$color:#161314;
+$hovercolor: #efefef;
+@font-face{
+	font-family: lora;
+	src:url('fonts/Lora-Regular.ttf');
+}
+.body{
+	margin:0;
+	padding:0;
+	
+	.header{
+		position: fixed;
+		background-color: $background-color;
+		width:100%;
+		text-align: center;
+		padding: 25px 25px;
+		.header__link{
+			font-family: lora;
+			text-decoration: none;
+			margin: 10px;
+			font-size: 1.2em;
+			background: transparent;	
+			color:$color;
+			&:hover{
+				cursor: pointer;
+				padding: 3px;
+				background-color: $hovercolor;
+			}
+		}
+	}
+	.menu{
+		width: 20%;
+		height: 100%;
+		margin-left:80%;
+		padding-top: 90px;
+		position:fixed;
+		background-color:$background-color;
+		display: block;
+		text-align: center;
+		.menu__link{
+			font-family: lora;
+			display: block;
+			text-decoration: none;
+			margin: 10px;
+			font-size: 1.3em;
+			color:$color;
+			&:hover{
+				padding: 3px;
+				background-color: $hovercolor;
+			}
+		}
+	}
+	.section{
+		background-image: url('images/1.jpg');
+		background-width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		padding-top: 90px;
+		padding-bottom: 20px;
+		.section__heading{
+			font-family: lora;
+			text-align:center;
+			display: block;
+			font-size: 1.3em;
+		}
+
+		.block{
+			text-indent: 50px;
+			background-color:$hovercolor;
+			margin-left: 200px;
+			margin-right: 300px;
+			height: 230px;
+			padding: 10px 10px;
+			text-align: justify;
+			.block__parahraph{
+				
+				font-family: lora;
+				float: right;
+			}	
+			.block__image{
+				margin-right: 20px;
+				float: left;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+			}	
+		}
+		.block2{
+			text-align: justify;
+			text-indent: 50px;
+			background-color: $hovercolor;
+			margin-left: 200px;
+			margin-right: 300px;
+			margin-top: 20px;
+			height: 230px;
+			padding: 10px 10px;
+
+			.block2__parahraph{
+				
+				float: left; 	
+				font-family: lora;
+
+			}	
+			.block2__image{
+				margin-left: 20px;
+				float: right;
+				width: 200px;
+				height: 200px;
+				border-radius: 200px;
+			}	
+		}
+	}
+	.footer{
+		width: 100%;
+		background-color:$background-color-footer;	
+		bottom: -188px;
+		height: 120px;
+		position:absolute;
+		text-align: center;
+		.footer__contact{
+			margin-right: 200px;
+			margin-left: 200px;
+			display: inline-block;
+			.footer__icon{
+				width:50px;
+				height: 50px;
+				border-radius: 50px;
+				margin: 10px;
+				cursor: pointer;
+			}
+		}
+	}
+}
